@@ -1,0 +1,274 @@
+body{
+    background-color: rgb(6,6,6);
+    font-family: 'Ubuntu', sans-serif;
+    cursor: default;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.navbar{
+    color: white;
+    /* height: 8vw; */
+    border-bottom: 0.5px solid rgb(47,47,47);
+}
+.navbar .n1 i{
+    font-size: 3.5vw;
+}
+.navbar .n2 img{
+    width: 3vw;
+}
+.navbar .n3 h5 i{
+    margin-left: 10px;
+    font-size: 2vw;
+    transition: 0.3s;
+}
+.navbar .n3 h5 i:hover{
+    transition: 0.3s;
+    color: rgb(131,131,131);
+    cursor: pointer;
+}
+#menu{
+    cursor: pointer;
+}
+#menushow{
+    width: 100%;
+    height: 70vw;
+    background-color: rgb(6,6,6);
+    color: white;
+    display: none;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+#menushow h1 a{
+    text-decoration: none;
+    color: rgb(170,170,170);
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 6vw;
+    transition: 0.2s;
+}
+#menushow h1:hover a{
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+.section1{
+    margin: 0px;
+    margin-block: 7vw;
+   
+}
+.section1  h1{
+    color: white;
+    font-size: 7.5vw;
+    text-align: center;
+    font-weight: 700;
+    line-height: 8vw;
+}
+.section1  p{
+    font-size: 1.5vw;
+    color: rgb(170,170,170);
+    font-weight: 500;
+    margin-top: 1vw;
+}
+.section1 a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(170,170,170);
+    height: 3.5vw;
+    font-weight: 300;
+    font-size: 1.8vw;
+    transition: 0.5s;
+    margin-top: 1vw;
+}
+.section1 a i{
+    margin-left: 0.5vw;
+    font-size: 1.5vw;
+}
+.section1 a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+.section2{
+    background-color: rgb(15,15,15);
+    padding: 0px;
+    padding-bottom: 10vw; 
+    margin: 0px;
+    margin-top: 10vw;  
+}
+.section2 img{
+    width: 30vw;
+    margin: 1vw;  
+}
+
+.section3{
+    padding-inline: 3vw;
+    margin: 0px;
+}
+.section3 .s33{
+    margin-top: 10vw;
+    margin-bottom: 5vw;  
+}
+.section3 .s33 h2{
+    color: white;
+    font-size: 4vw;
+    font-weight: 700;
+}
+.section3 .s33 p{
+    color: rgb(170,170,170);
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 0.6vw;
+}
+.section3 .s33 p span{
+    color: white;
+}
+.section3 .s3{
+    border: 0.5px solid rgb(47,47,47);
+}
+.section3 .s3 img{
+    width: 100%;
+    height: 100%;
+    border-bottom: 0.5px solid rgb(47,47,47);
+    padding-inline: 0px;
+}
+.section3 .s3 h2{
+    text-align: center;
+    color: white;
+    font-size: 2.8vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+.section3 .s3 h2 span{
+    color: rgb(170,170,170);
+    font-size: 2vw;
+}
+
+
+
+.section4{
+    margin: 0px;
+    margin-inline: 3vw;
+    border: 0.5px solid rgb(47,47,47);
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+}
+.section4 .s4 img{
+    width: 3.3vw;
+    margin-bottom: 2vw;
+}
+.section4 .s4{
+    padding: 4vw;
+}
+.section4 .s4 h1{
+    color: white;
+    font-size: 2.8vw;
+    font-weight: 700;
+}
+.section4 .s4 p{
+    font-size: 1.4vw;
+    color: rgb(170,170,170);
+   
+}
+.section4 .s4 p span{
+    color: white;
+    font-weight: 500;
+}
+.section4 a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(170,170,170);
+    height: 3.5vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+    transition: 0.5s;
+    margin-top: 1vw;
+}
+.section4 a i{
+    margin-left: 0.5vw;
+    font-size: 1.5vw;
+}
+.section4 a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+.section4 .s44 img{
+    width: 100%;
+    height: 100%;
+}
+
+.section4 .s444 h2{
+    color: white;
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: center;
+}
+.section4 .s444 p{
+    color: rgb(170,170,170);
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+.section4 .s444 p span{
+    color: white;
+}
+
+.footer{
+    border: 0.5px solid rgb(47,47,47);
+    padding-inline: 1vw;
+    /* padding-block: 13vw; */
+}
+.f11{
+    height: 40vw;
+    border-right: 0.5px solid rgb(47,47,47);
+}
+.f22{
+    padding-left: 5vw;
+    height: 40vw;
+    /* border-right: 0.5px solid rgb(47,47,47); */
+}
+.f11 img{
+    width: 25vw;
+}
+.f11 p{
+    color: rgb(170,170,170);
+    margin-top: 2.5vw;
+    font-size: 1.3vw;
+}
+.f11 i{
+    color: white;
+    margin-right: 1.3vw;
+    font-size: 1.8vw;
+}
+.f22 h2{
+    color: white;
+    font-size: 2.1vw;
+    margin-bottom: 1.5vw;
+}
+.f22 a{
+    color: rgb(170,170,170);
+    text-decoration: none;
+    font-size: 1.3vw;
+    margin-top: 0.4vw;
+}
+.f22 .line{
+    width: 10vw;
+    height: 0.2vw;
+    background-color: white;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.footer2{
+    padding-block: 4vw;
+}
+.footer2 h3{
+    color: rgb(170,170,170);
+    font-size: 1.5vw;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.footer2 h3 span{
+    color: white;
+    text-decoration: underline;
+}
